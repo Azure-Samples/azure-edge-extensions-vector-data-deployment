@@ -1,5 +1,5 @@
 
-# Vector Data Deployment to Multiple Edge Vector DBs
+# Vector Data Synchronization to Multiple Edge Vector DBs
 
 For Rag-on-Edge pattern on a single machine, we have developed a solution [here](https://github.com/Azure-Samples/azure-edge-extensions-retrieval-augmented-generation).
 However in scenarios where multiple edge machines implementing the RAG-on-Edge pattern are located across different locations, keeping the edge vector DBs updated becomes crucial. If these databases are not synchronized promptly with the up-to-date vector searching data content, search and generation tasks can become inefficient. Additionally, if an edge vector DB fails and data is lost, restoring the data efficiently is another major concern.
